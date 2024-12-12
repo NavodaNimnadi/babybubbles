@@ -6,7 +6,7 @@
     <title>Baby Bubbles</title>
     <!-- Bootstrap CSS -->
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="homee.css">
+    <link rel="stylesheet" href="styles/homee.css">
 </head>
 <body>
 
@@ -17,7 +17,7 @@
                 <!-- Logo -->
                 <div class="col-md-3" >
                   <a href="index.html"> 
-                  <img src="WhatsApp Image 2024-10-24 at 21.32.53.jpeg" alt="Baby Bubbles Logo" class="img-fluid logo">
+                  <img src="images/WhatsApp Image 2024-10-24 at 21.32.53.jpeg" alt="Baby Bubbles Logo" class="img-fluid logo">
                     </a>      
                 </div>
                 <!-- Navigation Bar -->
