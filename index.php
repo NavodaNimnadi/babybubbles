@@ -40,7 +40,7 @@
                         <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
                     </form>
                     <a href="#" class="shopping-cart">
-                        <img src="6688652.png" alt="Cart Icon" class="img-fluid cart-icon">
+                        <img src="images/6688652.png" alt="Cart Icon" class="img-fluid cart-icon">
                     </a>
                 </div>
             </div>
@@ -69,7 +69,7 @@
             <div class="row">
                 <div class="col-md-4">
                     <div class="card">
-                        <img src="81nq9V3+IhL._AC_UF894,1000_QL80_.jpg" class="card-img-top" alt="Product 1">
+                        <img src="images/81nq9V3+IhL._AC_UF894,1000_QL80_.jpg" class="card-img-top" alt="Product 1">
                         <div class="card-body">
                             <h5 class="card-title">New Arrival</h5>
                             <p class="card-text">Baby Blanket - Soft & Cozy</p>
@@ -78,7 +78,7 @@
                 </div>
                 <div class="col-md-4">
                     <div class="card">
-                        <img src="10-best-baby-carriers-under-1000-for-comfort-and-safety.webp" class="card-img-top" alt="Product 2">
+                        <img src="images/10-best-baby-carriers-under-1000-for-comfort-and-safety.webp" class="card-img-top" alt="Product 2">
                         <div class="card-body">
                             <h5 class="card-title">Best Seller</h5>
                             <p class="card-text">Baby Carrier - Comfortable & Safe</p>
@@ -87,7 +87,7 @@
                 </div>
                 <div class="col-md-4">
                     <div class="card">
-                        <img src="il_300x300.5538579349_rbn1.webp" class="card-img-top" alt="Product 3">
+                        <img src="images/il_300x300.5538579349_rbn1.webp" class="card-img-top" alt="Product 3">
                         <div class="card-body">
                             <h5 class="card-title">Seasonal Special</h5>
                             <p class="card-text">Organic Baby Onesies - 3 Pack</p>
