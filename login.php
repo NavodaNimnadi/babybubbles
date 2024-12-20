@@ -32,7 +32,7 @@
 <style>
    body {
             font-family:Arial;
-            font_size:14px;
+            font-size:14px;
         }
         .login{
           width:350px;
