@@ -1,6 +1,6 @@
-<?php
+
     //require_once 'connection/connection.php';
-?>
+
 <?php
     if(isset($_POST["login"])){
         $mail = mysqli_real_escape_string($connection,$_POST["mail"]);
