@@ -1,21 +1,26 @@
 <?php
-    session_start();
+    require_once 'connection/connection.php';
+?>
+<?php
+   
     if(isset($_POST["login"])){
         $mail = mysqli_real_escape_string($connection,$_POST["mail"]);
         $pswd = mysqli_real_escape_string($connection,$_POST["pswd"]);
-        if($mail != "" && $pswd != ""){
+       
           $sql1 = "SELECT * FROM users WHERE mail='{$mail}' AND pwsd='{$pswd}'";
 
-          $result_set1 = mysqli_query($connection,$sql1);
+          $result = mysqli_query($connection,$sql1);
 
-          if(mysqli_num_rows($result_set1) == 1){
-              $row = mysqli_fetch_assoc($result_set1);
+          if(mysqli_num_rows($result) == 1){
+              $row = mysqli_fetch_assoc($result);
 
               $_SESSION['user_id'] = $row['userid'];
               header("Location: index.php");
-          }        
-      }
-  }
+          } 
+        }else{
+          echo "Invalid PSWD or MAIL";
+      }         
+
 ?>
 
         
