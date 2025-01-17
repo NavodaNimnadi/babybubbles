@@ -8,9 +8,12 @@
         $pswd = mysqli_real_escape_string($connection,$_POST['pswd']);
 
         if($fname != "" && $lname != "" && $mail != "" && $pswd != ""){
-            $sql = "INSERT INTO Reg_Users (usertype,fname,lname,mail,pswd) VALUES('client','{$fname}','{$lname}','{$mail}','{$pswd}')";
+            $sql = "INSERT INTO users (fname,lname,mail,pswd) VALUES('{$fname}','{$lname}','{$mail}','{$pswd}')";
 
             $result_set = mysqli_query($connection,$sql);
+            if($result_set){
+                header("Location: login.php");
+            }
         }
     }
 ?>
@@ -42,13 +45,13 @@
     </style>
 </head>
 <body>
-    //<?php require_once 'navtwo.php'; ?>
+    
 
     <!-- Sign Up Form -->
     <div class="signup-container">
         <form class="form-signup" action="signup.php" method="post">
             <h2 class="text-center" style="font-weight: bold;">Sign Up</h2>
-            <p class="mb-4 text-center">Lorem ipsum dolor sit amet adipiscing elit.</p>
+            <p class="mb-4 text-center"></p>
             
             <div class="mb-3">
                 <label for="name" class="form-label">First Name</label>
