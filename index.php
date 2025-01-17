@@ -30,7 +30,7 @@
                             <li class="nav-item"><a href="#" class="nav-link">Blog</a></li>
                             <li class="nav-item"><a href="#" class="nav-link">Contact Us</a></li>
                             <li class="nav-item"><a href="login.php" class="nav-link">Sign In</a></li>
-                            <li class="nav-item"><a href="#" class="nav-link">Register</a></li>
+                            <li class="nav-item"><a href="signup.php" class="nav-link">Register</a></li>
                         </ul>
                     </nav>
                 </div>
@@ -55,7 +55,7 @@
                 <div class="col-md-6">
                     <h1>Caring for Your Little Ones, One Bubble at a Time!</h1>
                     <p class="lead">Discover the best in baby products with love and care.</p>
-                    <a href="#" class="btn btn-primary">Shop Now</a>
+                    <a href="babyItems.php" class="btn btn-primary">Shop Now</a>
                     <a href="#" class="btn btn-outline-primary">Explore Our Collection</a>
                 </div>
                 
@@ -69,6 +69,7 @@
             <h2>Featured Products</h2>
             <div class="row">
                 <div class="col-md-4">
+                <a href="blankets.php" style="text-decoration:none">
                     <div class="card">
                         <img src="images/81nq9V3+IhL._AC_UF894,1000_QL80_.jpg" class="card-img-top" alt="Product 1">
                         <div class="card-body">
@@ -78,6 +79,7 @@
                     </div>
                 </div>
                 <div class="col-md-4">
+                <a href="carrier.php" style="text-decoration:none">
                     <div class="card">
                         <img src="images/10-best-baby-carriers-under-1000-for-comfort-and-safety.webp" class="card-img-top" alt="Product 2">
                         <div class="card-body">
@@ -87,6 +89,7 @@
                     </div>
                 </div>
                 <div class="col-md-4">
+                <a href="organic.php" style="text-decoration:none">
                     <div class="card">
                         <img src="images/il_300x300.5538579349_rbn1.webp" class="card-img-top" alt="Product 3">
                         <div class="card-body">
